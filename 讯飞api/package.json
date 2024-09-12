@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "enc": "^0.4.0",
+    "js-base64": "^3.7.7",
+    "nuxt": "^3.13.0",
+    "recorder-core": "^1.3.24040900",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-browserify": "^3.12.0",
+    "worker-loader": "^3.0.8"
+  }
+}
